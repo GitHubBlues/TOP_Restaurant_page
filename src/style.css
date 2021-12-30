@@ -5,6 +5,14 @@ body {
     opacity: 1;
 }
 
+/*Header*/
+.top-btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 5px solid green;
+}
+
 /*Home*/
 .main-image {
     width: 80vmin;
