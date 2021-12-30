@@ -30,3 +30,19 @@ body {
 
 
 /*Contact*/
+.contact-page {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-icon {
+   width: 5rem;
+
+}
+
