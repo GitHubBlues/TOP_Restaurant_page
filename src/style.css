@@ -1,4 +1,32 @@
 body {
     /* background-color: rgb(185, 187, 172); */
-    background-image: url("/img/tile_background.png");
+    background-image: url("/img/tile_background_6.png");
+    background-size: cover;
+    opacity: 1;
 }
+
+/*Home*/
+.main-image {
+    width: 80vmin;
+    border: 20px solid orange;
+}
+
+
+
+/*Menu*/
+.menu-item-image {
+    width: 5rem;
+
+}
+
+.menu-page{
+    display: flex;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Contact*/
