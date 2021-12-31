@@ -23,14 +23,14 @@ function home(){
 function menu(){
     makeMenu(mainContainer);
     let creditOne = "Background image: https://patternico.com";
-    let creditTwo = "";
+    let creditTwo = "Food images from Pixabay";
     makeFooter(creditOne, creditTwo);
 }
 
 function contact(){
     makeContact(mainContainer);
     let creditOne = "Background image: https://patternico.com";
-    let creditTwo = "";
+    let creditTwo = "Icons made by Cuputo (plane), Becris (house), Slidicon (phone) from www.flaticon.com ";
     makeFooter(creditOne, creditTwo);
 }
 
@@ -58,3 +58,8 @@ function switchPages(e){
 
 topButtonsContainer.addEventListener("click", switchPages);
 home();
+
+
+
+
+
