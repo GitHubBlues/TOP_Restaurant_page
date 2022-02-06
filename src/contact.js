@@ -1,3 +1,7 @@
+import Iplane from "./img/plane_message.png";
+import Ihouse from "./img/house.png";
+import Iphone from "./img/phone_1.png";
+
 function makeContact(mainContainer){
     const contactPage = document.createElement('div');
     contactPage.classList.add("contact-page");
@@ -17,6 +21,7 @@ function makeContact(mainContainer){
         contactItem.classList.add("contact-item");
 
         const contactChannel = document.createElement("div");
+        contactChannel.setAttribute('style', 'white-space: pre;');
         contactChannel.textContent = channel;
         contactChannel.classList.add("contact-channel");
 
@@ -30,16 +35,16 @@ function makeContact(mainContainer){
     }
 
 
-    let iChannel = "304 East Park Avenue, Greenborough, Ireland";
-    let iIcon = "/img/house.png";
+    let iChannel = "304 East Park Avenue \r\n" + "Greenborough, Ireland";
+    let iIcon = Ihouse;
     createContactItem (iChannel, iIcon);
 
     iChannel = "info@ambrosia.com";
-    iIcon = "/img/plane_message.png";
+    iIcon = Iplane;
     createContactItem (iChannel, iIcon);
 
     iChannel = "353-8212499";
-    iIcon = "/img/phone_1.png";
+    iIcon = Iphone;
     createContactItem (iChannel, iIcon);
 
     contactPage.appendChild(contactItemContainer);

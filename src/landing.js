@@ -1,3 +1,5 @@
+import Ichef from "./img/pizza-g2cb6cf464_1920.png";
+
 function makeHeader(){
     const mainHeader = document.querySelector('header');
     
@@ -28,7 +30,7 @@ function makeBody(mainContainer){
     mainTitle.classList.add("main-title");
 
     const mainImage = document.createElement('img');
-    mainImage.src = "/img/pizza-g2cb6cf464_1920.png";
+    mainImage.src = Ichef;
     mainImage.classList.add("main-image");
 
     const mainText = document.createElement('div');
