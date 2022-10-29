@@ -18,6 +18,8 @@ Live demo available at: https://githubblues.github.io/TOP_Restaurant_page/
 - HTML 
 - CSS 
 - Javascript
+- Webpack
+
 
 ### ***Resources***	
 - Background image created with: https://patternico.com
